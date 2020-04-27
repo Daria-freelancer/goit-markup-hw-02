@@ -1,0 +1,221 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  background-color: #969696fc;
+}
+.plan_container {
+  font-size: 13px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+.lifestyle {
+  padding-right: 120px;
+  color: #212020fc;
+}
+.photodiary {
+  padding-right: 120px;
+  color: #212020fc;
+}
+.music {
+  padding-right: 120px;
+  color: #212020fc;
+}
+.travel {
+  padding-right: 120px;
+  color: #212020fc;
+}
+
+.image_1_2 {
+}
+.image-1 {
+  position: relative;
+  left: 200px;
+  top: 90px;
+}
+.image-2 {
+  position: relative;
+  left: 290px;
+  top: 65px;
+}
+
+/* text-1 */
+.text_1_1 {
+  position: relative;
+  left: 235px;
+  top: 80px;
+}
+.life-1 {
+  padding-bottom: 20px;
+  color: #5e5e5efc;
+}
+.music_festival {
+  font-size: 33px;
+  color: #525252fc;
+}
+.text-1 {
+  color: #525252fc;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.text_2_2 {
+  position: absolute;
+  left: 765px;
+  top: 465px;
+}
+.life-2 {
+  padding-bottom: 20px;
+  color: #5e5e5efc;
+}
+.tastes_coffe {
+  font-size: 33px;
+  color: #525252fc;
+}
+.text-2 {
+  color: #525252fc;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.image_3_4 {
+}
+.image-3 {
+  position: relative;
+  left: 230px;
+  top: 90px;
+}
+.image-4 {
+  position: relative;
+  left: 280px;
+  top: 124px;
+}
+.text_3_3 {
+  position: absolute;
+  left: 770px;
+  top: 965px;
+}
+.photodiary-1 {
+  color: #5e5e5efc;
+  padding-bottom: 30px;
+}
+.american_dream {
+  font-size: 33px;
+  color: #525252fc;
+}
+.text-3 {
+  color: #525252fc;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.text_4_4 {
+  position: absolute;
+  left: 240px;
+  top: 965px;
+}
+.photodiary-2 {
+  color: #5e5e5efc;
+  padding-bottom: 30px;
+}
+.day_exploring {
+  font-size: 33px;
+  color: #525252fc;
+}
+.text-4 {
+  color: #525252fc;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.load_more {
+  color: #525252fc;
+  border: thin solid;
+  width: 200px;
+  padding: 20px;
+  font-size: 18px;
+  position: relative;
+  left: 600px;
+  top: 370px;
+  text-align: center;
+}
